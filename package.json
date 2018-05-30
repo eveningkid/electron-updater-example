@@ -1,9 +1,9 @@
 {
   "name": "electron-updater-example",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "main": "main.js",
   "description": "electron-updater example project",
-  "author": "Matt Haggard",
+  "author": "Arnaud Dellinger",
   "scripts": {
     "publish": "build -p always"
   },
@@ -16,9 +16,9 @@
     "electron-updater": "^2.21.4"
   },
   "build": {
-    "appId": "com.github.iffy.electronupdaterexample",
+    "appId": "com.github.eveningkid.electronupdaterexample",
     "mac": {
-      "category": "your.app.category.type",
+      "category": "public.app-category.developer-tools",
       "target": [
         "zip",
         "dmg"
